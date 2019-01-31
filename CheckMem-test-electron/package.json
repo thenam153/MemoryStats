@@ -1,0 +1,23 @@
+{
+		"name": "prov1",
+		"version": "1.0.0",
+		"dependencies": {
+				"angular": "^1.7.5",
+				"html-loader": "^0.5.5",
+				"is-electron": "^2.2.0",
+				"os": "^0.1.1"
+		},
+		"devDependencies": {
+				"css-loader": "^2.1.0",
+				"electron": "^4.0.3",
+				"style-loader": "^0.23.1",
+				"webpack": "^4.28.3",
+				"webpack-cli": "^3.2.0"
+		},
+		"main": "app.js",
+		"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+		},
+		"author": "namthe",
+		"license": "ISC"
+}

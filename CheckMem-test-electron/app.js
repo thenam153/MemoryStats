@@ -1,7 +1,6 @@
 const electron = require('electron');
 const app = electron.app;
 const BrowserWindow = electron.BrowserWindow;
-const ipcMain = require('electron').ipcMain;
 
 //===============
 const showMem = require('./showMem');

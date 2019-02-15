@@ -12,14 +12,19 @@ Use this project to show memory information on webapp (browser or electron)
 2. Require modal-memory
 3. Run webpack
 4. Add <modal-memory></modal-memory> in your index.html
-5. Run
+5. Run **npm install**
+6. Run **webpack** 
+7. Run **http-server . -p 1000**
+
 
 ### Using electron app
 1. Require modal-memory
 2. Require showMem, run with yourWindow 
 3. Run webpack
 4. Add <modal-memory></modal-memory> in your index.html
-5. Run
+5. Run **npm install**
+6. Run **webpack** 
+7. Run **electron .**
 
 ## Dependencies
 ### Browser
@@ -31,3 +36,8 @@ Use this project to show memory information on webapp (browser or electron)
 * Is-electron
 * Angularjs
 * Os
+
+### devDependencies
+* Webpack
+* Css-loader, style-loader
+* Http-server 

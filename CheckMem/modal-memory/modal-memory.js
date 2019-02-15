@@ -32,7 +32,7 @@ function ModalMemoryController($scope,$interval){
 		}
 	}else{
 		$interval(function(){
-			if(angular.element('#modalMemory').text().trim() == 'NA' ) alert('Bạn chưa cài extensions kiểm tra dung lượng ram trống!');
+			if(document.getElementById('modalMemory').textContent.trim() == 'NA' ) alert('Bạn chưa cài extensions kiểm tra dung lượng ram trống!');
 		},3000);
 	}
 	
